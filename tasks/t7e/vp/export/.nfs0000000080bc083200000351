@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Monitors>
+  <Monitor>
+    <MonitorName>TLM Port Trace</MonitorName>
+    <MonitorDescription>TLM Port Trace monitor.</MonitorDescription>
+    <MonitorKind>TLM Port Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.targetSocket</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_state</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_clk</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_rst</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_datain</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_done</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_enable</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_dataout</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_addr</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_i2t_transacor.i2t_write</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_state</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_clk</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_rst</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_dataout</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_done</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_datain</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_enable</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_addr</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>Value Trace</MonitorName>
+    <MonitorDescription>cwrdb trace</MonitorDescription>
+    <MonitorKind>Value Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.t2i_write</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+  <Monitor>
+    <MonitorName>TLM Port Trace</MonitorName>
+    <MonitorDescription>TLM Port Trace monitor.</MonitorDescription>
+    <MonitorKind>TLM Port Trace</MonitorKind>
+    <DesignObjName>HARDWARE.i_t2i_transacor.simple_initiator_socket_0</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+</Monitors>

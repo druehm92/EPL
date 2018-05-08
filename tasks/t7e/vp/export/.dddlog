@@ -1,0 +1,1 @@
++ exec /software/Synopsys_CoWare/F-2011.06-SP2/SLS/linux/gnu/ddd/bin/ddd --quiet --debugger '/software/Synopsys_CoWare/F-2011.06-SP2/SLS/linux/common/bin/scsh-ddd-bridge 18019 28018' --gdb

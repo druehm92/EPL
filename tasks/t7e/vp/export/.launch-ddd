@@ -1,0 +1,3 @@
+#!/bin/sh
+DDD_STATE=${HOME}/.cnscddd; export DDD_STATE
+exec $COWAREHOME/gnu/ddd/bin/ddd.sh --quiet --debugger "/software/Synopsys_CoWare/F-2011.06-SP2/SLS/linux/common/bin/scsh-ddd-bridge 18019 28018" --gdb > .dddlog 2>&1

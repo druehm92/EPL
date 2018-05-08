@@ -1,0 +1,67 @@
+# vsim -L lib1 -L cwr_hdl_lib -do {run -all; quit} -lib cwr_hdl_work -c -pli /software/Synopsys_CoWare/F-2011.06-SP2/SLS/linux/common/lib-gcc-4.2.2/libCwrMti.so -t 1ps cwr_cosim_top 
+# Loading /software/Synopsys_CoWare/F-2011.06-SP2/SLS/linux/common/lib-gcc-4.2.2/libCwrMti.so
+# //  ModelSim SE 10.0b May  5 2011 Linux 2.6.18-274.12.1.el5
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading lib1.modules
+# Loading work.cwr_cosim_top(structure)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading lib1.counter(behave)#1
+# Loading work.cwr_cosim_shell(behavior)#1
+# ** Warning: (vsim-8683) Uninitialized out port /cwr_cosim_top/cwr_cosim_shell_i/HARDWARE_v_i_counter_v_CLK has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /cwr_cosim_top/cwr_cosim_shell_i/HARDWARE_v_i_counter_v_RST has no driver.
+# This port will contribute value (U) to the signal network.
+# run -all 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 1  Instance: /cwr_cosim_top/cwr_HARDWARE_v_i_counter
