@@ -1,5 +1,6 @@
 #Matthias Jung 2012
-CROSS_COMPILE_DIR = /users/jung/tools/SynopsysGnuArm/arm-2010q1/bin
+#CROSS_COMPILE_DIR = /users/jung/tools/SynopsysGnuArm/arm-2010q1/bin
+CROSS_COMPILE_DIR = /usr/bin
 
 ARCH		?= arm
 CROSS_COMPILE	?= arm-none-eabi-
