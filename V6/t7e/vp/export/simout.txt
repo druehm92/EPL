@@ -1,4 +1,4 @@
-(15:12:49) Starting simulation: 
+(14:58:55) Starting simulation: 
 /bin/bash -c exec "/net/user/r1/unix/mep_04/tasks/t7e/vp/export/Debug/sim"  --cwr_properties_xml "/net/user/r1/unix/mep_04/tasks/t7e/vp/export/generated/Default/Properties.xml"
 
                     Copyright 1996-2017 Synopsys, Inc.
@@ -32,8 +32,4364 @@ PORT-ID	CPU-ARCH	INSTANCE_NAME
 COUNTER RESTART 
 
 COUNTER RESTART 
-SystemC: simulation stopped by user.
-GDB stub port 12346 closed.
-Warning: some scml2 stream(s) not destroyed before infrastructure shutdown. Set environment variable SNPS_SLS_VP_SCML2_LOGGING_VERBOSE_WARNINGS for more details.
-(15:15:35) Simulation terminated with exit code 0
+kernel: 1.val: 102 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 117 
+kernel: 1.val: 100 
+kernel: 1.val: 112 
+kernel: 1.val: 133 
+kernel: 1.val: 108 
+kernel: 1.val: 125 
+kernel: 1.val: 153 
+kernel: 1.val: 122 
+kernel: 1.val: 144 
+kernel: 1.val: 175 
+kernel: 1.val: 141 
+kernel: 1.val: 168 
+kernel: 1.val: 190 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 190 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 184 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 177 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 200 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 71 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 202 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 131 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 0 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 153 
+kernel: 1.val: 184 
+kernel: 1.val: 153 
+kernel: 1.val: 112 
+kernel: 1.val: 153 
+kernel: 1.val: 119 
+kernel: 1.val: 93 
+kernel: 1.val: 119 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 96 
+kernel: 1.val: 100 
+kernel: 1.val: 102 
+kernel: 1.val: 75 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 117 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 0 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 122 
+kernel: 1.val: 102 
+kernel: 1.val: 117 
+kernel: 1.val: 136 
+kernel: 1.val: 112 
+kernel: 1.val: 133 
+kernel: 1.val: 198 
+kernel: 1.val: 125 
+kernel: 1.val: 153 
+kernel: 1.val: 175 
+kernel: 1.val: 144 
+kernel: 1.val: 175 
+kernel: 1.val: 187 
+kernel: 1.val: 168 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 184 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 71 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 202 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 0 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 184 
+kernel: 1.val: 198 
+kernel: 1.val: 187 
+kernel: 1.val: 153 
+kernel: 1.val: 187 
+kernel: 1.val: 153 
+kernel: 1.val: 115 
+kernel: 1.val: 153 
+kernel: 1.val: 112 
+kernel: 1.val: 90 
+kernel: 1.val: 119 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 105 
+kernel: 1.val: 100 
+kernel: 1.val: 102 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 0 
+kernel: 1.val: 112 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 133 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 0 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 102 
+kernel: 1.val: 122 
+kernel: 1.val: 141 
+kernel: 1.val: 117 
+kernel: 1.val: 136 
+kernel: 1.val: 153 
+kernel: 1.val: 133 
+kernel: 1.val: 198 
+kernel: 1.val: 105 
+kernel: 1.val: 153 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 160 
+kernel: 1.val: 184 
+kernel: 1.val: 173 
+kernel: 1.val: 153 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 71 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 180 
+kernel: 1.val: 198 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 187 
+kernel: 1.val: 153 
+kernel: 1.val: 112 
+kernel: 1.val: 153 
+kernel: 1.val: 115 
+kernel: 1.val: 96 
+kernel: 1.val: 112 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 100 
+kernel: 1.val: 96 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 102 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 0 
+kernel: 1.val: 112 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 133 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 0 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 0 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 141 
+kernel: 1.val: 168 
+kernel: 1.val: 136 
+kernel: 1.val: 153 
+kernel: 1.val: 175 
+kernel: 1.val: 198 
+kernel: 1.val: 105 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 180 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 173 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 202 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 173 
+kernel: 1.val: 198 
+kernel: 1.val: 180 
+kernel: 1.val: 136 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 108 
+kernel: 1.val: 153 
+kernel: 1.val: 112 
+kernel: 1.val: 96 
+kernel: 1.val: 115 
+kernel: 1.val: 96 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 100 
+kernel: 1.val: 86 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 96 
+kernel: 1.val: 100 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 0 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 133 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 0 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 141 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 153 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 105 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 175 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 177 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 0 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 202 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 168 
+kernel: 1.val: 198 
+kernel: 1.val: 173 
+kernel: 1.val: 125 
+kernel: 1.val: 180 
+kernel: 1.val: 136 
+kernel: 1.val: 34 
+kernel: 1.val: 144 
+kernel: 1.val: 108 
+kernel: 1.val: 90 
+kernel: 1.val: 112 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 100 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 102 
+kernel: 1.val: 100 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 112 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 0 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 141 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 0 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 173 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 177 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 187 
+kernel: 1.val: 177 
+kernel: 1.val: 177 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 0 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 202 
+kernel: 1.val: 198 
+kernel: 1.val: 158 
+kernel: 1.val: 198 
+kernel: 1.val: 168 
+kernel: 1.val: 115 
+kernel: 1.val: 173 
+kernel: 1.val: 125 
+kernel: 1.val: 86 
+kernel: 1.val: 136 
+kernel: 1.val: 34 
+kernel: 1.val: 79 
+kernel: 1.val: 108 
+kernel: 1.val: 90 
+kernel: 1.val: 86 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 100 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 102 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 102 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 0 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 0 
+kernel: 1.val: 131 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 0 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 177 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 177 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 0 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 117 
+kernel: 1.val: 198 
+kernel: 1.val: 158 
+kernel: 1.val: 112 
+kernel: 1.val: 168 
+kernel: 1.val: 115 
+kernel: 1.val: 75 
+kernel: 1.val: 125 
+kernel: 1.val: 86 
+kernel: 1.val: 71 
+kernel: 1.val: 34 
+kernel: 1.val: 79 
+kernel: 1.val: 83 
+kernel: 1.val: 90 
+kernel: 1.val: 86 
+kernel: 1.val: 93 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 100 
+kernel: 1.val: 93 
+kernel: 1.val: 96 
+kernel: 1.val: 108 
+kernel: 1.val: 102 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 102 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 0 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 0 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 0 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 153 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 148 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 187 
+kernel: 1.val: 162 
+kernel: 1.val: 177 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 168 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 184 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 153 
+kernel: 1.val: 187 
+kernel: 1.val: 117 
+kernel: 1.val: 108 
+kernel: 1.val: 158 
+kernel: 1.val: 112 
+kernel: 1.val: 79 
+kernel: 1.val: 115 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 86 
+kernel: 1.val: 71 
+kernel: 1.val: 79 
+kernel: 1.val: 79 
+kernel: 1.val: 83 
+kernel: 1.val: 90 
+kernel: 1.val: 86 
+kernel: 1.val: 93 
+kernel: 1.val: 100 
+kernel: 1.val: 90 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 90 
+kernel: 1.val: 100 
+kernel: 1.val: 105 
+kernel: 1.val: 96 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 115 
+kernel: 1.val: 102 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 0 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 0 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 153 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 158 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 162 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 184 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 198 
+kernel: 1.val: 190 
+kernel: 1.val: 153 
+kernel: 1.val: 190 
+kernel: 1.val: 153 
+kernel: 1.val: 105 
+kernel: 1.val: 117 
+kernel: 1.val: 108 
+kernel: 1.val: 75 
+kernel: 1.val: 112 
+kernel: 1.val: 79 
+kernel: 1.val: 68 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 71 
+kernel: 1.val: 79 
+kernel: 1.val: 86 
+kernel: 1.val: 83 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 93 
+kernel: 1.val: 100 
+kernel: 1.val: 96 
+kernel: 1.val: 96 
+kernel: 1.val: 102 
+kernel: 1.val: 102 
+kernel: 1.val: 100 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 105 
+kernel: 1.val: 115 
+kernel: 1.val: 198 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 153 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 125 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 141 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 162 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 187 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 177 
+kernel: 1.val: 175 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 184 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 190 
+kernel: 1.val: 153 
+kernel: 1.val: 96 
+kernel: 1.val: 153 
+kernel: 1.val: 105 
+kernel: 1.val: 71 
+kernel: 1.val: 108 
+kernel: 1.val: 75 
+kernel: 1.val: 96 
+kernel: 1.val: 79 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 86 
+kernel: 1.val: 86 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 100 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 102 
+kernel: 1.val: 102 
+kernel: 1.val: 100 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 198 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 115 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 0 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 131 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 131 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 184 
+kernel: 1.val: 175 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 175 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 175 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 180 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 190 
+kernel: 1.val: 180 
+kernel: 1.val: 141 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 93 
+kernel: 1.val: 153 
+kernel: 1.val: 96 
+kernel: 1.val: 63 
+kernel: 1.val: 105 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 75 
+kernel: 1.val: 96 
+kernel: 1.val: 71 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 86 
+kernel: 1.val: 86 
+kernel: 1.val: 79 
+kernel: 1.val: 90 
+kernel: 1.val: 90 
+kernel: 1.val: 86 
+kernel: 1.val: 96 
+kernel: 1.val: 93 
+kernel: 1.val: 93 
+kernel: 1.val: 102 
+kernel: 1.val: 100 
+kernel: 1.val: 96 
+kernel: 1.val: 108 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 198 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 0 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 122 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 177 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 160 
+kernel: 1.val: 184 
+kernel: 1.val: 180 
+kernel: 1.val: 158 
+kernel: 1.val: 184 
+kernel: 1.val: 175 
+kernel: 1.val: 153 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 175 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 173 
+kernel: 1.val: 158 
+kernel: 1.val: 146 
+kernel: 1.val: 162 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 190 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 180 
+kernel: 1.val: 141 
+kernel: 1.val: 90 
+kernel: 1.val: 144 
+kernel: 1.val: 93 
+kernel: 1.val: 57 
+kernel: 1.val: 96 
+kernel: 1.val: 63 
+kernel: 1.val: 57 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 96 
+kernel: 1.val: 71 
+kernel: 1.val: 0 
+kernel: 1.val: 71 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 86 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 90 
+kernel: 1.val: 86 
+kernel: 1.val: 79 
+kernel: 1.val: 93 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 100 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 108 
+kernel: 1.val: 105 
+kernel: 1.val: 96 
+kernel: 1.val: 112 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 122 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 119 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 108 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 129 
+kernel: 1.val: 115 
+kernel: 1.val: 122 
+kernel: 1.val: 131 
+kernel: 1.val: 115 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 115 
+kernel: 1.val: 115 
+kernel: 1.val: 125 
+kernel: 1.val: 115 
+kernel: 1.val: 117 
+kernel: 1.val: 129 
+kernel: 1.val: 0 
+kernel: 1.val: 119 
+kernel: 1.val: 129 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 173 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 173 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 180 
+kernel: 1.val: 158 
+kernel: 1.val: 146 
+kernel: 1.val: 175 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 168 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 158 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 162 
+kernel: 1.val: 173 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 175 
+kernel: 1.val: 173 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 193 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 184 
+kernel: 1.val: 141 
+kernel: 1.val: 184 
+kernel: 1.val: 144 
+kernel: 1.val: 93 
+kernel: 1.val: 141 
+kernel: 1.val: 90 
+kernel: 1.val: 63 
+kernel: 1.val: 93 
+kernel: 1.val: 57 
+kernel: 1.val: 53 
+kernel: 1.val: 63 
+kernel: 1.val: 57 
+kernel: 1.val: 59 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 0 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 71 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 71 
+kernel: 1.val: 86 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 75 
+kernel: 1.val: 96 
+kernel: 1.val: 90 
+kernel: 1.val: 83 
+kernel: 1.val: 105 
+kernel: 1.val: 96 
+kernel: 1.val: 0 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 100 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 119 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 119 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 122 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 119 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 115 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 117 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 119 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 141 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 153 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 160 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 162 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 180 
+kernel: 1.val: 193 
+kernel: 1.val: 180 
+kernel: 1.val: 136 
+kernel: 1.val: 184 
+kernel: 1.val: 141 
+kernel: 1.val: 90 
+kernel: 1.val: 144 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 90 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 57 
+kernel: 1.val: 53 
+kernel: 1.val: 63 
+kernel: 1.val: 57 
+kernel: 1.val: 59 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 0 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 75 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 86 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 90 
+kernel: 1.val: 83 
+kernel: 1.val: 75 
+kernel: 1.val: 96 
+kernel: 1.val: 0 
+kernel: 1.val: 90 
+kernel: 1.val: 105 
+kernel: 1.val: 100 
+kernel: 1.val: 100 
+kernel: 1.val: 112 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 117 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 125 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 129 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 125 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 129 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 0 
+kernel: 1.val: 144 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 162 
+kernel: 1.val: 0 
+kernel: 1.val: 168 
+kernel: 1.val: 162 
+kernel: 1.val: 158 
+kernel: 1.val: 162 
+kernel: 1.val: 160 
+kernel: 1.val: 160 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 158 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 148 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 148 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 141 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 141 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 160 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 0 
+kernel: 1.val: 148 
+kernel: 1.val: 158 
+kernel: 1.val: 173 
+kernel: 1.val: 153 
+kernel: 1.val: 162 
+kernel: 1.val: 177 
+kernel: 1.val: 158 
+kernel: 1.val: 168 
+kernel: 1.val: 180 
+kernel: 1.val: 168 
+kernel: 1.val: 177 
+kernel: 1.val: 180 
+kernel: 1.val: 173 
+kernel: 1.val: 180 
+kernel: 1.val: 180 
+kernel: 1.val: 175 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 180 
+kernel: 1.val: 187 
+kernel: 1.val: 193 
+kernel: 1.val: 187 
+kernel: 1.val: 190 
+kernel: 1.val: 198 
+kernel: 1.val: 193 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 198 
+kernel: 1.val: 177 
+kernel: 1.val: 198 
+kernel: 1.val: 180 
+kernel: 1.val: 131 
+kernel: 1.val: 180 
+kernel: 1.val: 136 
+kernel: 1.val: 83 
+kernel: 1.val: 141 
+kernel: 1.val: 90 
+kernel: 1.val: 63 
+kernel: 1.val: 93 
+kernel: 1.val: 86 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 53 
+kernel: 1.val: 63 
+kernel: 1.val: 63 
+kernel: 1.val: 59 
+kernel: 1.val: 63 
+kernel: 1.val: 68 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 71 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 79 
+kernel: 1.val: 75 
+kernel: 1.val: 68 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 57 
+kernel: 1.val: 71 
+kernel: 1.val: 63 
+kernel: 1.val: 0 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 63 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 83 
+kernel: 1.val: 75 
+kernel: 1.val: 75 
+kernel: 1.val: 0 
+kernel: 1.val: 90 
+kernel: 1.val: 75 
+kernel: 1.val: 100 
+kernel: 1.val: 100 
+kernel: 1.val: 93 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 105 
+kernel: 1.val: 112 
+kernel: 1.val: 108 
+kernel: 1.val: 112 
+kernel: 1.val: 122 
+kernel: 1.val: 117 
+kernel: 1.val: 115 
+kernel: 1.val: 129 
+kernel: 1.val: 122 
+kernel: 1.val: 122 
+kernel: 1.val: 131 
+kernel: 1.val: 125 
+kernel: 1.val: 125 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 129 
+kernel: 1.val: 129 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 131 
+kernel: 1.val: 131 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 133 
+kernel: 1.val: 136 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 136 
+kernel: 1.val: 141 
+kernel: 1.val: 141 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 144 
+kernel: 1.val: 144 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: 148 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 148 
+kernel: 1.val: 146 
+kernel: 1.val: 153 
+kernel: 1.val: 153 
+kernel: 1.val: 146 
+kernel: 1.val: (15:03:35) Simulation terminated by signal 9
 --------------------------------------------------------------------

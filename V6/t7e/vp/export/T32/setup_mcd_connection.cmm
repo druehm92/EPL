@@ -19,7 +19,7 @@ IF "&(guard)"!=""
 
 LOCAL &cmdArg &starterKey
 
-&starterKey="c7e11328-2f67-4fd1-b845-f0f5360fe192"
+&starterKey="da0a1d9e-07de-482b-908e-d8056fff78bf"
 
 &cmdArg="&(cpu0)||&(starterKey)"
 IF "&(cpu1)"!=""
