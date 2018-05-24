@@ -1,0 +1,12 @@
+SOURCE=ConvergenSC/cwr_simulation_vars.cpp
+COWAREHOME=/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux
+PPFLAGS = -DSC_INCLUDE_DYNAMIC_PROCESSES=1   -I"${CWR_ARM926EJS_TLM2_PSP}" -I"${CWR_ARM_COPROC}" -I"${CWR_ARM926EJS_TLM2_PSP}/Internal/IA_CoWare/include" -I"${CWR_ARM926EJS_TLM2_PSP}/Internal/IA_CoWare/include/ARM926EJS_TLM2_IA_CoWare" -I"${CWR_ARM926EJS_TLM2_PSP}/SystemC/IA_CoWare/include" -I"${CWR_ARM_COPROC}/SystemC/Common/include" -I"${CWR_GENERICIPLIB}/SystemC/include" -I"${CWR_TLM2_BL}/SystemC/include" -I"${CWR_TLM2_BL}/SystemC/src" -I"${CWR_AMBA_TLM2_BL}/AMBA-PV/include" -I"${CWR_AMBA_TLM2_BL}/include" -I"../../../../2016/demo.vhdl.cache/vp/lib" -I"../../../../2016/demo.vhdl.cache/vp/lib/EasyBMP" -I"." -I"../lib/EasyBMP/" -I"/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/SystemC/Common/include" -I"/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/SystemC/IA_CoWare/include" -I"/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/Internal/IA_CoWare/include" -I"/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/Internal/IA_CoWare/include/ARM926EJS_TLM2_IA_CoWare"
+CXXFLAGS = -fPIC
+CXX=gcc-5.2.0-64
+OPT_LEVEL= +O1
+SCSIM_OPTS=
+CXXFLAGS= $(CWR_SYSTEMC_CXXFLAGS) -g2   
+
+
+SCCFLAGS= +cache-objects
+

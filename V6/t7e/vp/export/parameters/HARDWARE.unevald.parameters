@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="ASCII"?>
+<parameters:ParametersRoot xmi:version="2.0" xmlns:parameters="http://parameters/1.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <instances name="HARDWARE">
+      <sets kind="BLOCK_PROPERTIES">
+         <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="HARDWARE" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+      </sets>
+      <sets kind="EXTRA_PROPERTIES">
+         <ParameterElements editable="UNTIL_SIMULATION_START" name="property_xml_file" type="STRING" value="Properties.xml" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         <ParameterElements editable="UNTIL_SIMULATION_START" name="system_hierarchy_xml_file" type="STRING" value="SystemHierarchy.xml" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         <ParameterElements name="task_modeling" xsi:type="parameters:Group">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="clock_period" type="INTEGER" value="1" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="pre_emption" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="scheduler" type="STRING" value="round_robin" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="time_slice" type="INTEGER" value="30" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="time_slicing" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="resources" type="INTEGER" value="1" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </ParameterElements>
+         <ParameterElements name="pct" xsi:type="parameters:Group">
+            <ParameterElements name="runtime" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="simulation_mode" type="STRING" value="MODE_FULL_SIMULATION" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="dynamic_load_info" type="STRING" value="ClockGenerator,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Memory_tlm2,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;OutputDevice_tlm2,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Pin_drive,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Pin_stub,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;amba_pv_to_ft_bridge,./simulation/FastBuild/AMBA_TLM2_BL/gcc-5.2.0-64,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/IP_common/AMBA_TLM2_BL/lib/linux/gcc-5.2.0-64;ftbus,./simulation/FastBuild/SBLTLM2FT_BL,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/SBLTLM2FT_BL/SystemC/lib/linux.gcc-5.2.0-64;rst,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </ParameterElements>
+      </sets>
+      <instances name="CLOCK_GENERATOR">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="CLOCK_GENERATOR" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS">
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="-1.797693e+308" name="period" toValue="1.797693e+308" type="DOUBLE" value="10" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="period_unit" type="STRING" value="sc_core::SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>sc_core::SC_FS</allowedValues>
+               <allowedValues>sc_core::SC_PS</allowedValues>
+               <allowedValues>sc_core::SC_NS</allowedValues>
+               <allowedValues>sc_core::SC_US</allowedValues>
+               <allowedValues>sc_core::SC_MS</allowedValues>
+               <allowedValues>sc_core::SC_SEC</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="-1.797693e+308" name="duty_cycle" toValue="1.797693e+308" type="DOUBLE" value="0.5" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="-1.797693e+308" name="start_time" toValue="1.797693e+308" type="DOUBLE" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="start_time_unit" type="STRING" value="sc_core::SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>sc_core::SC_FS</allowedValues>
+               <allowedValues>sc_core::SC_PS</allowedValues>
+               <allowedValues>sc_core::SC_NS</allowedValues>
+               <allowedValues>sc_core::SC_US</allowedValues>
+               <allowedValues>sc_core::SC_MS</allowedValues>
+               <allowedValues>sc_core::SC_SEC</allowedValues>
+            </ParameterElements>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="posedge_first" type="BOOLEAN" value="true" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+      </instances>
+      <instances name="RESET_GENERATOR">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="RESET_GENERATOR" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="active_level" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="-1.797693e+308" name="start_time" toValue="1.797693e+308" type="DOUBLE" value="1.000000e+01" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="start_time_unit" type="STRING" value="sc_core::SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>sc_core::SC_FS</allowedValues>
+               <allowedValues>sc_core::SC_PS</allowedValues>
+               <allowedValues>sc_core::SC_NS</allowedValues>
+               <allowedValues>sc_core::SC_US</allowedValues>
+               <allowedValues>sc_core::SC_MS</allowedValues>
+               <allowedValues>sc_core::SC_SEC</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="-1.797693e+308" name="duration" toValue="1.797693e+308" type="DOUBLE" value="20" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="duration_unit" type="STRING" value="sc_core::SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>sc_core::SC_FS</allowedValues>
+               <allowedValues>sc_core::SC_PS</allowedValues>
+               <allowedValues>sc_core::SC_NS</allowedValues>
+               <allowedValues>sc_core::SC_US</allowedValues>
+               <allowedValues>sc_core::SC_MS</allowedValues>
+               <allowedValues>sc_core::SC_SEC</allowedValues>
+            </ParameterElements>
+         </sets>
+         <sets kind="SCML_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="reset_domain" type="STRING" value="System" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="active_at_start" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="EXTRA_PROPERTIES"/>
+      </instances>
+      <instances name="ROM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="ROM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS">
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="BUSWIDTH" type="INTEGER" value="32" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>8</allowedValues>
+               <allowedValues>16</allowedValues>
+               <allowedValues>32</allowedValues>
+               <allowedValues>64</allowedValues>
+               <allowedValues>128</allowedValues>
+               <allowedValues>256</allowedValues>
+               <allowedValues>512</allowedValues>
+            </ParameterElements>
+         </sets>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES">
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="read_latency" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="write_latency" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="latency_time_unit" type="STRING" value="SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>SC_MS</allowedValues>
+               <allowedValues>SC_US</allowedValues>
+               <allowedValues>SC_NS</allowedValues>
+               <allowedValues>SC_PS</allowedValues>
+               <allowedValues>SC_FS</allowedValues>
+               <allowedValues>SC_SEC</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="address_width" toValue="4294967295" type="INTEGER" value="16" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="pct" xsi:type="parameters:Group">
+               <ParameterElements name="meta" xsi:type="parameters:Group">
+                  <ParameterElements editable="NEVER" name="target_locations" type="STRING" value="m_memory MEM block 0x10000 0x0 ;;" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+               </ParameterElements>
+            </ParameterElements>
+         </sets>
+         <ports name="MEM">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="RAM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="RAM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS">
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="BUSWIDTH" type="INTEGER" value="32" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>8</allowedValues>
+               <allowedValues>16</allowedValues>
+               <allowedValues>32</allowedValues>
+               <allowedValues>64</allowedValues>
+               <allowedValues>128</allowedValues>
+               <allowedValues>256</allowedValues>
+               <allowedValues>512</allowedValues>
+            </ParameterElements>
+         </sets>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES">
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="read_latency" toValue="4294967295" type="INTEGER" value="200" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="write_latency" toValue="4294967295" type="INTEGER" value="200" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="latency_time_unit" type="STRING" value="SC_NS" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>SC_MS</allowedValues>
+               <allowedValues>SC_US</allowedValues>
+               <allowedValues>SC_NS</allowedValues>
+               <allowedValues>SC_PS</allowedValues>
+               <allowedValues>SC_FS</allowedValues>
+               <allowedValues>SC_SEC</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="address_width" toValue="4294967295" type="INTEGER" value="16" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="pct" xsi:type="parameters:Group">
+               <ParameterElements name="meta" xsi:type="parameters:Group">
+                  <ParameterElements editable="NEVER" name="target_locations" type="STRING" value="m_memory MEM block 0x10000 0x0 ;;" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+               </ParameterElements>
+            </ParameterElements>
+         </sets>
+         <ports name="MEM">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="TERMINAL">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="TERMINAL" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS">
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="BUSWIDTH" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+               <allowedValues>32</allowedValues>
+               <allowedValues>64</allowedValues>
+            </ParameterElements>
+         </sets>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="output_file" type="STRING" value="" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="rst_active_level" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="exit_sim_on_file_close" toValue="4294967295" type="INTEGER" value="1" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="pct" xsi:type="parameters:Group">
+               <ParameterElements name="meta" xsi:type="parameters:Group">
+                  <ParameterElements editable="NEVER" name="target_locations" type="STRING" value="m_regs CTRL block 0xc 0x0 ;;" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+               </ParameterElements>
+            </ParameterElements>
+         </sets>
+         <ports name="CTRL">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="4" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="ARM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="ARM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="image" type="STRING" value="../../sw/main.elf" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+               <ParameterElements name="image_load_configuration" xsi:type="parameters:Group">
+                  <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="ITCM_base_address" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="ITCM_size" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="DTCM_base_address" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="DTCM_size" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+               </ParameterElements>
+               <ParameterElements name="core_configuration" xsi:type="parameters:Group">
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="i_cache_size" type="INTEGER" value="4" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                     <allowedValues>4</allowedValues>
+                     <allowedValues>8</allowedValues>
+                     <allowedValues>16</allowedValues>
+                     <allowedValues>32</allowedValues>
+                     <allowedValues>64</allowedValues>
+                     <allowedValues>128</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="d_cache_size" type="INTEGER" value="4" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                     <allowedValues>4</allowedValues>
+                     <allowedValues>8</allowedValues>
+                     <allowedValues>16</allowedValues>
+                     <allowedValues>32</allowedValues>
+                     <allowedValues>64</allowedValues>
+                     <allowedValues>128</allowedValues>
+                  </ParameterElements>
+               </ParameterElements>
+            </ParameterElements>
+            <ParameterElements name="IA_CoWare" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="simulate_cache" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+         <ports name="IAHB">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>8</allowedValues>
+                  <allowedValues>16</allowedValues>
+                  <allowedValues>32</allowedValues>
+                  <allowedValues>64</allowedValues>
+                  <allowedValues>128</allowedValues>
+                  <allowedValues>256</allowedValues>
+                  <allowedValues>512</allowedValues>
+                  <allowedValues>1024</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="DAHB">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>8</allowedValues>
+                  <allowedValues>16</allowedValues>
+                  <allowedValues>32</allowedValues>
+                  <allowedValues>64</allowedValues>
+                  <allowedValues>128</allowedValues>
+                  <allowedValues>256</allowedValues>
+                  <allowedValues>512</allowedValues>
+                  <allowedValues>1024</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="ITCM_DATA">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="DTCM_DATA">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="ITCM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="ITCM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="size" type="STRING" value="0KB(Stub)" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>0KB(Stub)</allowedValues>
+               <allowedValues>4KB</allowedValues>
+               <allowedValues>8KB</allowedValues>
+               <allowedValues>16KB</allowedValues>
+               <allowedValues>32KB</allowedValues>
+               <allowedValues>64KB</allowedValues>
+               <allowedValues>128KB</allowedValues>
+               <allowedValues>256KB</allowedValues>
+               <allowedValues>512KB</allowedValues>
+               <allowedValues>1MB</allowedValues>
+            </ParameterElements>
+         </sets>
+         <ports name="DATA">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="DTCM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="DTCM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="size" type="STRING" value="0KB(Stub)" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>0KB(Stub)</allowedValues>
+               <allowedValues>4KB</allowedValues>
+               <allowedValues>8KB</allowedValues>
+               <allowedValues>16KB</allowedValues>
+               <allowedValues>32KB</allowedValues>
+               <allowedValues>64KB</allowedValues>
+               <allowedValues>128KB</allowedValues>
+               <allowedValues>256KB</allowedValues>
+               <allowedValues>512KB</allowedValues>
+               <allowedValues>1MB</allowedValues>
+            </ParameterElements>
+         </sets>
+         <ports name="DATA">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="BLFramework">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="BLFramework" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="State" type="STRING" value="None" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="BackBone" type="STRING" value="SBLTLM2FT" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="Type" type="STRING" value="SBLTLM2FT" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>-</allowedValues>
+               <allowedValues>AMBA_TLM2</allowedValues>
+               <allowedValues>PV</allowedValues>
+               <allowedValues>TLM2Bus</allowedValues>
+               <allowedValues>SBLTLM2FT</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="DataWidth" type="STRING" value="*" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>*</allowedValues>
+            </ParameterElements>
+            <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_START" name="Hidden" type="STRING" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter">
+               <allowedValues>true</allowedValues>
+               <allowedValues>false</allowedValues>
+            </ParameterElements>
+         </sets>
+         <ports name="C_11_s">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>8</allowedValues>
+                  <allowedValues>16</allowedValues>
+                  <allowedValues>32</allowedValues>
+                  <allowedValues>64</allowedValues>
+                  <allowedValues>128</allowedValues>
+                  <allowedValues>256</allowedValues>
+                  <allowedValues>512</allowedValues>
+                  <allowedValues>1024</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="C_12_s">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>8</allowedValues>
+                  <allowedValues>16</allowedValues>
+                  <allowedValues>32</allowedValues>
+                  <allowedValues>64</allowedValues>
+                  <allowedValues>128</allowedValues>
+                  <allowedValues>256</allowedValues>
+                  <allowedValues>512</allowedValues>
+                  <allowedValues>1024</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="C_13_m">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="C_14_m">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="C_15_m">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="4" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="i_counter_targetSocket">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="10" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <ports name="i_display_targetSocket">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+         <instances name="BackBone">
+            <sets kind="BLOCK_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="BackBone" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+            </sets>
+            <sets kind="EXTRA_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="data_width" type="STRING" value="*" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+               <ParameterElements name="basic" xsi:type="parameters:Group">
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the interface protocol for information exchange with connected initiators and targets" editable="UNTIL_SIMULATION_START" name="protocol" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the internal data path width of the fabric. All external accesses will be routed internally after converting to the &lt;BUSWIDTH>" editable="UNTIL_SIMULATION_START" name="BUSWIDTH" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>8</allowedValues>
+                     <allowedValues>16</allowedValues>
+                     <allowedValues>32</allowedValues>
+                     <allowedValues>64</allowedValues>
+                     <allowedValues>128</allowedValues>
+                     <allowedValues>256</allowedValues>
+                     <allowedValues>512</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the arbitration scheme" editable="UNTIL_SIMULATION_START" name="arbitration_scheme" type="STRING" value="fixed" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>fixed</allowedValues>
+                     <allowedValues>round_robin</allowedValues>
+                  </ParameterElements>
+               </ParameterElements>
+               <ParameterElements name="timing_parameters" xsi:type="parameters:Group">
+                  <ParameterElements constraint="RANGE" description="Number of cycles taken by the interconnect for performing arbitration. This delay specifies the number of cycles which an incoming request will have to wait to qualify for arbitration" editable="UNTIL_SIMULATION_START" fromValue="0" name="arbitration_delay" toValue="65536" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </ParameterElements>
+               <ParameterElements name="advanced" xsi:type="parameters:Group">
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the number of arbitration resources to be associated with a target" editable="UNTIL_SIMULATION_START" name="num_resources_per_target" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>1</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the behaviour of the default slave" editable="UNTIL_SIMULATION_START" name="default_slave_behaviour" type="STRING" value="RETURN_ERROR_RESPONSE" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>RETURN_ERROR_RESPONSE</allowedValues>
+                     <allowedValues>RETURN_OK_RESPONSE</allowedValues>
+                     <allowedValues>ABORT_SIMULATION</allowedValues>
+                     <allowedValues>CUSTOM_BEHAVIOUR</allowedValues>
+                  </ParameterElements>
+               </ParameterElements>
+            </sets>
+            <ports name="BB_C_11_s">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the priority of the initiator connected to this socket." editable="UNTIL_SIMULATION_START" name="priority" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>0</allowedValues>
+                     <allowedValues>1</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_C_12_s">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" description="Specifies the priority of the initiator connected to this socket." editable="UNTIL_SIMULATION_START" name="priority" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>0</allowedValues>
+                     <allowedValues>1</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_C_13_m">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the unique id assigned by bus to each target device." editable="UNTIL_SIMULATION_START" name="target_id" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a read transaction. The bus delays a read transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="read_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a write transaction. The bus delays a write transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="write_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_C_14_m">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the unique id assigned by bus to each target device." editable="UNTIL_SIMULATION_START" name="target_id" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a read transaction. The bus delays a read transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="read_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a write transaction. The bus delays a write transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="write_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_C_15_m">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the unique id assigned by bus to each target device." editable="UNTIL_SIMULATION_START" name="target_id" type="INTEGER" value="3" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a read transaction. The bus delays a read transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="read_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a write transaction. The bus delays a write transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="write_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="4" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_i_counter_targetSocket">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the unique id assigned by bus to each target device." editable="UNTIL_SIMULATION_START" name="target_id" type="INTEGER" value="4" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a read transaction. The bus delays a read transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="read_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a write transaction. The bus delays a write transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="write_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="10" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="BB_i_display_targetSocket">
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements name="Domains" xsi:type="parameters:Group">
+                     <ParameterElements constraint="ALLOWED_VALUES" description="Set the clock domain for this port" editable="UNTIL_SIMULATION_START" name="clock" type="STRING" value="Clk" visibility="VISIBLE" xsi:type="parameters:Parameter">
+                        <allowedValues>Clk</allowedValues>
+                     </ParameterElements>
+                  </ParameterElements>
+                  <ParameterElements description="Specifies the unique id assigned by bus to each target device." editable="UNTIL_SIMULATION_START" name="target_id" type="INTEGER" value="5" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding read transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_reads" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding write transactions for the module connected to this socket. Legal values: 1 upto 512" editable="UNTIL_SIMULATION_START" name="outstanding_writes" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the maximum number of outstanding transactions for the module connected to this socket. Legal values: 1 upto 1024" editable="UNTIL_SIMULATION_START" name="outstanding_trans" type="INTEGER" value="2" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a read transaction. The bus delays a read transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="read_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements description="Specifies the access latency in clock cycles for a write transaction. The bus delays a write transaction by the number of clock cycles configured in this parameter before sending it to the target after arbitration." editable="UNTIL_SIMULATION_START" name="write_access_latency" type="INTEGER" value="0" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <instances name="tlm2ftbus_genMS">
+               <sets kind="BLOCK_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="tlm2ftbus_genMS" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+               </sets>
+               <sets kind="EXTRA_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_START" name="data_width" type="STRING" value="#data_width" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  <ParameterElements name="basic" xsi:type="parameters:Group">
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="protocol" type="STRING" value="#{/basic/protocol}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="BUSWIDTH" type="INTEGER" value="#{/basic/BUSWIDTH}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="arbitration_scheme" type="STRING" value="#{/basic/arbitration_scheme}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  </ParameterElements>
+                  <ParameterElements name="timing_parameters" xsi:type="parameters:Group">
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="arbitration_delay" type="INTEGER" value="#{/timing_parameters/arbitration_delay}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  </ParameterElements>
+                  <ParameterElements name="advanced" xsi:type="parameters:Group">
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="num_resources_per_target" type="INTEGER" value="#{/advanced/num_resources_per_target}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_START" name="default_slave_behaviour" type="STRING" value="#{/advanced/default_slave_behaviour}" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+                  </ParameterElements>
+                  <ParameterElements editable="NEVER" name="xml_file_name" type="STRING" value="CwrModule_HARDWARE_BLFramework_BackBone_tlm2ftbus_genMS.xml" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+               </sets>
+               <ports name="Bus_IPStage_BB_C_11_s_C_BB_C_11_s_s">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_IPStage_BB_C_12_s_C_BB_C_12_s_s">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_OPStage_BB_C_13_m_C_BB_C_13_m_m">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_OPStage_BB_C_14_m_C_BB_C_14_m_m">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="16" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_OPStage_BB_C_15_m_C_BB_C_15_m_m">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="4" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_OPStage_BB_i_counter_targetSocket_C_BB_i_counter_targetSocket_m">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="10" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+               <ports name="Bus_OPStage_BB_i_display_targetSocket_C_BB_i_display_targetSocket_m">
+                  <sets kind="PROTOCOL_PROPERTIES">
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                        <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                     </ParameterElements>
+                     <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                        <allowedValues>TLM2_GP</allowedValues>
+                        <allowedValues>AXI</allowedValues>
+                        <allowedValues>GFT</allowedValues>
+                        <allowedValues>NTTP</allowedValues>
+                        <allowedValues>AXI4Stream</allowedValues>
+                     </ParameterElements>
+                  </sets>
+               </ports>
+            </instances>
+         </instances>
+         <instances name="C_11_s|TLM2AMBAToFT|1of1">
+            <sets kind="BLOCK_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="C_11_s|TLM2AMBAToFT|1of1" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+            </sets>
+            <sets kind="TEMPLATE_ARGUMENTS">
+               <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_BUILD" fromValue="0" name="BUSWIDTH" toValue="4294967295" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+            </sets>
+            <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+            <sets kind="SCML_PROPERTIES"/>
+            <sets kind="EXTRA_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="initial_stall_cycles" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            </sets>
+            <ports name="amba_pv_s">
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>8</allowedValues>
+                     <allowedValues>16</allowedValues>
+                     <allowedValues>32</allowedValues>
+                     <allowedValues>64</allowedValues>
+                     <allowedValues>128</allowedValues>
+                     <allowedValues>256</allowedValues>
+                     <allowedValues>512</allowedValues>
+                     <allowedValues>1024</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="tlm_m">
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+         </instances>
+         <instances name="C_12_s|TLM2AMBAToFT|1of1">
+            <sets kind="BLOCK_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="C_12_s|TLM2AMBAToFT|1of1" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+            </sets>
+            <sets kind="TEMPLATE_ARGUMENTS">
+               <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_BUILD" fromValue="0" name="BUSWIDTH" toValue="4294967295" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+            </sets>
+            <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+            <sets kind="SCML_PROPERTIES"/>
+            <sets kind="EXTRA_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="initial_stall_cycles" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            </sets>
+            <ports name="amba_pv_s">
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>8</allowedValues>
+                     <allowedValues>16</allowedValues>
+                     <allowedValues>32</allowedValues>
+                     <allowedValues>64</allowedValues>
+                     <allowedValues>128</allowedValues>
+                     <allowedValues>256</allowedValues>
+                     <allowedValues>512</allowedValues>
+                     <allowedValues>1024</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+            <ports name="tlm_m">
+               <sets kind="PROTOCOL_PROPERTIES">
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="#BUSWIDTH" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                     <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+                  </ParameterElements>
+                  <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                     <allowedValues>TLM2_GP</allowedValues>
+                     <allowedValues>AXI</allowedValues>
+                     <allowedValues>GFT</allowedValues>
+                     <allowedValues>NTTP</allowedValues>
+                     <allowedValues>AXI4Stream</allowedValues>
+                  </ParameterElements>
+               </sets>
+            </ports>
+         </instances>
+      </instances>
+      <instances name="stub_ARM_nFIQ">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_nFIQ" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="stub_value" type="BOOLEAN" value="true" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+      </instances>
+      <instances name="stub_ARM_nIRQ">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_nIRQ" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="stub_value" type="BOOLEAN" value="true" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+      </instances>
+      <instances name="stub_ARM_BIGENDINIT">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_BIGENDINIT" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="stub_value" type="BOOLEAN" value="false" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+      </instances>
+      <instances name="stub_ARM_INITRAM">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_INITRAM" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="stub_value" type="BOOLEAN" value="false" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+      </instances>
+      <instances name="stub_ARM_VINITHI">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_VINITHI" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES">
+            <ParameterElements name="all_encaps" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="stub_value" type="BOOLEAN" value="false" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </sets>
+      </instances>
+      <instances name="stub_ARM_STANDBYWFI">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_STANDBYWFI" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+      </instances>
+      <instances name="stub_ARM_CFGBIGEND">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_CFGBIGEND" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+      </instances>
+      <instances name="stub_ARM_COPROC">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="stub_ARM_COPROC" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="act_like_stub" type="BOOLEAN" value="true" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="CONSTRUCTOR_ARGUMENTS">
+            <ParameterElements constraint="RANGE" editable="UNTIL_SIMULATION_START" fromValue="0" name="coprocessorId" toValue="4294967295" type="INTEGER" value="0" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+      </instances>
+      <instances name="i_counter">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="i_counter" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+         <ports name="targetSocket">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="10" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+      <instances name="i_display">
+         <sets kind="BLOCK_PROPERTIES">
+            <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="Name" type="STRING" value="i_display" visibility="HIDDEN" xsi:type="parameters:Parameter"/>
+         </sets>
+         <sets kind="TEMPLATE_ARGUMENTS"/>
+         <sets kind="CONSTRUCTOR_ARGUMENTS"/>
+         <sets kind="SCML_PROPERTIES"/>
+         <sets kind="EXTRA_PROPERTIES"/>
+         <ports name="targetSocket">
+            <sets kind="PROTOCOL_PROPERTIES">
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="address_width" type="INTEGER" value="20" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="data_width" type="INTEGER" value="32" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_BUILD" name="N" type="INTEGER" value="1" visibility="ASSEMBLY" xsi:type="parameters:Parameter"/>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="pol" type="STRING" value="sc_core::SC_ONE_OR_MORE_BOUND" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>sc_core::SC_ZERO_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ONE_OR_MORE_BOUND</allowedValues>
+                  <allowedValues>sc_core::SC_ALL_BOUND</allowedValues>
+               </ParameterElements>
+               <ParameterElements constraint="ALLOWED_VALUES" editable="UNTIL_SIMULATION_BUILD" name="ft_protocol_tag" type="STRING" value="TLM2_GP" visibility="ASSEMBLY" xsi:type="parameters:Parameter">
+                  <allowedValues>TLM2_GP</allowedValues>
+                  <allowedValues>AXI</allowedValues>
+                  <allowedValues>GFT</allowedValues>
+                  <allowedValues>NTTP</allowedValues>
+                  <allowedValues>AXI4Stream</allowedValues>
+               </ParameterElements>
+            </sets>
+         </ports>
+      </instances>
+   </instances>
+</parameters:ParametersRoot>

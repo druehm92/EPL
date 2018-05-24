@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.synopsys.vp.base:NodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg" name="C_11_s" kind="EXPORT">
+<configInfo kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configInfo kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configInfo kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true">
+<attrInfo name="Analyzed Field" kind="2" type="STRING" value="" description="Select the field for processing">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Read Transaction.begin.m_gp.m_address</choices>
+<choices>Read Transaction.begin.m_gp.m_command</choices>
+<choices>Read Transaction.begin.m_gp.m_data_length</choices>
+<choices>Read Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Read Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Read Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Read Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Read Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Read Transaction.begin.m_amba.m_id</choices>
+<choices>Read Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Read Transaction.begin.m_amba.m_privileged</choices>
+<choices>Read Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Read Transaction.begin.m_amba.m_instruction</choices>
+<choices>Read Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Read Transaction.begin.m_amba.m_locked</choices>
+<choices>Read Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Read Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Read Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_gathering</choices>
+<choices>Read Transaction.begin.m_amba.m_reordering</choices>
+<choices>Read Transaction.begin.m_amba.m_transient</choices>
+<choices>Read Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Read Transaction.begin.m_amba.m_qos</choices>
+<choices>Read Transaction.begin.m_amba.m_region</choices>
+<choices>Read Transaction.begin.m_amba.m_user</choices>
+<choices>Read Transaction.end.m_gp.m_response_status</choices>
+<choices>Read Transaction.end.m_amba.m_resp</choices>
+<choices>Write Transaction.begin.m_gp.m_address</choices>
+<choices>Write Transaction.begin.m_gp.m_command</choices>
+<choices>Write Transaction.begin.m_gp.m_data_length</choices>
+<choices>Write Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Write Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Write Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Write Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Write Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Write Transaction.begin.m_amba.m_id</choices>
+<choices>Write Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Write Transaction.begin.m_amba.m_privileged</choices>
+<choices>Write Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Write Transaction.begin.m_amba.m_instruction</choices>
+<choices>Write Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Write Transaction.begin.m_amba.m_locked</choices>
+<choices>Write Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Write Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Write Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_gathering</choices>
+<choices>Write Transaction.begin.m_amba.m_reordering</choices>
+<choices>Write Transaction.begin.m_amba.m_transient</choices>
+<choices>Write Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Write Transaction.begin.m_amba.m_qos</choices>
+<choices>Write Transaction.begin.m_amba.m_region</choices>
+<choices>Write Transaction.begin.m_amba.m_user</choices>
+<choices>Write Transaction.end.m_gp.m_response_status</choices>
+<choices>Write Transaction.end.m_amba.m_resp</choices>
+</attrInfo>
+<attrInfo name="Condition Field" kind="2" type="STRING" value="" description="Select the field to be used as ID">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices></choices>
+<choices>Read Transaction.begin.m_gp.m_address</choices>
+<choices>Read Transaction.begin.m_gp.m_command</choices>
+<choices>Read Transaction.begin.m_gp.m_data_length</choices>
+<choices>Read Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Read Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Read Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Read Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Read Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Read Transaction.begin.m_amba.m_id</choices>
+<choices>Read Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Read Transaction.begin.m_amba.m_privileged</choices>
+<choices>Read Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Read Transaction.begin.m_amba.m_instruction</choices>
+<choices>Read Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Read Transaction.begin.m_amba.m_locked</choices>
+<choices>Read Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Read Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Read Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_gathering</choices>
+<choices>Read Transaction.begin.m_amba.m_reordering</choices>
+<choices>Read Transaction.begin.m_amba.m_transient</choices>
+<choices>Read Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Read Transaction.begin.m_amba.m_qos</choices>
+<choices>Read Transaction.begin.m_amba.m_region</choices>
+<choices>Read Transaction.begin.m_amba.m_user</choices>
+<choices>Read Transaction.end.m_gp.m_response_status</choices>
+<choices>Read Transaction.end.m_amba.m_resp</choices>
+<choices>Write Transaction.begin.m_gp.m_address</choices>
+<choices>Write Transaction.begin.m_gp.m_command</choices>
+<choices>Write Transaction.begin.m_gp.m_data_length</choices>
+<choices>Write Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Write Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Write Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Write Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Write Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Write Transaction.begin.m_amba.m_id</choices>
+<choices>Write Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Write Transaction.begin.m_amba.m_privileged</choices>
+<choices>Write Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Write Transaction.begin.m_amba.m_instruction</choices>
+<choices>Write Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Write Transaction.begin.m_amba.m_locked</choices>
+<choices>Write Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Write Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Write Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_gathering</choices>
+<choices>Write Transaction.begin.m_amba.m_reordering</choices>
+<choices>Write Transaction.begin.m_amba.m_transient</choices>
+<choices>Write Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Write Transaction.begin.m_amba.m_qos</choices>
+<choices>Write Transaction.begin.m_amba.m_region</choices>
+<choices>Write Transaction.begin.m_amba.m_user</choices>
+<choices>Write Transaction.end.m_gp.m_response_status</choices>
+<choices>Write Transaction.end.m_amba.m_resp</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Read Transaction</choices>
+<choices>Write Transaction</choices>
+<choices>Read Transaction.begin.m_gp.m_address</choices>
+<choices>Read Transaction.begin.m_gp.m_command</choices>
+<choices>Read Transaction.begin.m_gp.m_data_length</choices>
+<choices>Read Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Read Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Read Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Read Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Read Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Read Transaction.begin.m_amba.m_id</choices>
+<choices>Read Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Read Transaction.begin.m_amba.m_privileged</choices>
+<choices>Read Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Read Transaction.begin.m_amba.m_instruction</choices>
+<choices>Read Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Read Transaction.begin.m_amba.m_locked</choices>
+<choices>Read Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Read Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Read Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_gathering</choices>
+<choices>Read Transaction.begin.m_amba.m_reordering</choices>
+<choices>Read Transaction.begin.m_amba.m_transient</choices>
+<choices>Read Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Read Transaction.begin.m_amba.m_qos</choices>
+<choices>Read Transaction.begin.m_amba.m_region</choices>
+<choices>Read Transaction.begin.m_amba.m_user</choices>
+<choices>Write Transaction.begin.m_gp.m_address</choices>
+<choices>Write Transaction.begin.m_gp.m_command</choices>
+<choices>Write Transaction.begin.m_gp.m_data_length</choices>
+<choices>Write Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Write Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Write Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Write Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Write Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Write Transaction.begin.m_amba.m_id</choices>
+<choices>Write Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Write Transaction.begin.m_amba.m_privileged</choices>
+<choices>Write Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Write Transaction.begin.m_amba.m_instruction</choices>
+<choices>Write Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Write Transaction.begin.m_amba.m_locked</choices>
+<choices>Write Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Write Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Write Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_gathering</choices>
+<choices>Write Transaction.begin.m_amba.m_reordering</choices>
+<choices>Write Transaction.begin.m_amba.m_transient</choices>
+<choices>Write Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Write Transaction.begin.m_amba.m_qos</choices>
+<choices>Write Transaction.begin.m_amba.m_region</choices>
+<choices>Write Transaction.begin.m_amba.m_user</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Read Transaction</choices>
+<choices>Write Transaction</choices>
+<choices>Read Transaction.begin.m_gp.m_address</choices>
+<choices>Read Transaction.begin.m_gp.m_command</choices>
+<choices>Read Transaction.begin.m_gp.m_data_length</choices>
+<choices>Read Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Read Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Read Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Read Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Read Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Read Transaction.begin.m_amba.m_id</choices>
+<choices>Read Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Read Transaction.begin.m_amba.m_privileged</choices>
+<choices>Read Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Read Transaction.begin.m_amba.m_instruction</choices>
+<choices>Read Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Read Transaction.begin.m_amba.m_locked</choices>
+<choices>Read Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Read Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Read Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_gathering</choices>
+<choices>Read Transaction.begin.m_amba.m_reordering</choices>
+<choices>Read Transaction.begin.m_amba.m_transient</choices>
+<choices>Read Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Read Transaction.begin.m_amba.m_qos</choices>
+<choices>Read Transaction.begin.m_amba.m_region</choices>
+<choices>Read Transaction.begin.m_amba.m_user</choices>
+<choices>Write Transaction.begin.m_gp.m_address</choices>
+<choices>Write Transaction.begin.m_gp.m_command</choices>
+<choices>Write Transaction.begin.m_gp.m_data_length</choices>
+<choices>Write Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Write Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Write Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Write Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Write Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Write Transaction.begin.m_amba.m_id</choices>
+<choices>Write Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Write Transaction.begin.m_amba.m_privileged</choices>
+<choices>Write Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Write Transaction.begin.m_amba.m_instruction</choices>
+<choices>Write Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Write Transaction.begin.m_amba.m_locked</choices>
+<choices>Write Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Write Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Write Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_gathering</choices>
+<choices>Write Transaction.begin.m_amba.m_reordering</choices>
+<choices>Write Transaction.begin.m_amba.m_transient</choices>
+<choices>Write Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Write Transaction.begin.m_amba.m_qos</choices>
+<choices>Write Transaction.begin.m_amba.m_region</choices>
+<choices>Write Transaction.begin.m_amba.m_user</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Read Transaction</choices>
+<choices>Write Transaction</choices>
+<choices>Read Transaction.begin.m_gp.m_address</choices>
+<choices>Read Transaction.begin.m_gp.m_command</choices>
+<choices>Read Transaction.begin.m_gp.m_data_length</choices>
+<choices>Read Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Read Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Read Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Read Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Read Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Read Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Read Transaction.begin.m_amba.m_id</choices>
+<choices>Read Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Read Transaction.begin.m_amba.m_privileged</choices>
+<choices>Read Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Read Transaction.begin.m_amba.m_instruction</choices>
+<choices>Read Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Read Transaction.begin.m_amba.m_locked</choices>
+<choices>Read Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Read Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Read Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Read Transaction.begin.m_amba.m_gathering</choices>
+<choices>Read Transaction.begin.m_amba.m_reordering</choices>
+<choices>Read Transaction.begin.m_amba.m_transient</choices>
+<choices>Read Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Read Transaction.begin.m_amba.m_qos</choices>
+<choices>Read Transaction.begin.m_amba.m_region</choices>
+<choices>Read Transaction.begin.m_amba.m_user</choices>
+<choices>Write Transaction.begin.m_gp.m_address</choices>
+<choices>Write Transaction.begin.m_gp.m_command</choices>
+<choices>Write Transaction.begin.m_gp.m_data_length</choices>
+<choices>Write Transaction.begin.m_gp.m_byte_enable_length</choices>
+<choices>Write Transaction.begin.m_gp.m_streaming_width</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_length</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_size</choices>
+<choices>Write Transaction.begin.m_amba.m_burst_type</choices>
+<choices>Write Transaction.begin.m_amba.m_snoop_type</choices>
+<choices>Write Transaction.begin.m_amba.m_domain_type</choices>
+<choices>Write Transaction.begin.m_amba.m_bar_type</choices>
+<choices>Write Transaction.begin.m_amba.m_id</choices>
+<choices>Write Transaction.begin.m_amba.m_extended_id</choices>
+<choices>Write Transaction.begin.m_amba.m_privileged</choices>
+<choices>Write Transaction.begin.m_amba.m_non_secure</choices>
+<choices>Write Transaction.begin.m_amba.m_instruction</choices>
+<choices>Write Transaction.begin.m_amba.m_exclusive</choices>
+<choices>Write Transaction.begin.m_amba.m_locked</choices>
+<choices>Write Transaction.begin.m_amba.m_bufferable</choices>
+<choices>Write Transaction.begin.m_amba.m_modifiable</choices>
+<choices>Write Transaction.begin.m_amba.m_read_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_write_allocate</choices>
+<choices>Write Transaction.begin.m_amba.m_gathering</choices>
+<choices>Write Transaction.begin.m_amba.m_reordering</choices>
+<choices>Write Transaction.begin.m_amba.m_transient</choices>
+<choices>Write Transaction.begin.m_amba.m_translated_access</choices>
+<choices>Write Transaction.begin.m_amba.m_qos</choices>
+<choices>Write Transaction.begin.m_amba.m_region</choices>
+<choices>Write Transaction.begin.m_amba.m_user</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+</com.synopsys.vp.base:NodeInfo>

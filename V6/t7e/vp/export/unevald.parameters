@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<parameters:ParametersRoot xmi:version="2.0" xmlns:parameters="http://parameters/1.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <instances href="parameters/HARDWARE.unevald.parameters#//@instances.0" name="HARDWARE">
+      <sets kind="EXTRA_PROPERTIES">
+         <ParameterElements editable="UNTIL_SIMULATION_START" name="property_xml_file" type="STRING" value="Properties.xml" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         <ParameterElements editable="UNTIL_SIMULATION_START" name="system_hierarchy_xml_file" type="STRING" value="SystemHierarchy.xml" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         <ParameterElements name="task_modeling" xsi:type="parameters:Group">
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="clock_period" type="INTEGER" value="1" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="pre_emption" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="scheduler" type="STRING" value="round_robin" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="time_slice" type="INTEGER" value="30" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="time_slicing" type="BOOLEAN" value="false" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+            <ParameterElements editable="UNTIL_SIMULATION_START" name="resources" type="INTEGER" value="1" visibility="VISIBLE" xsi:type="parameters:Parameter"/>
+         </ParameterElements>
+         <ParameterElements name="pct" xsi:type="parameters:Group">
+            <ParameterElements name="runtime" xsi:type="parameters:Group">
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="simulation_mode" type="STRING" value="MODE_FULL_SIMULATION" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+               <ParameterElements editable="UNTIL_SIMULATION_START" name="dynamic_load_info" type="STRING" value="ClockGenerator,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Memory_tlm2,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;OutputDevice_tlm2,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Pin_drive,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;Pin_stub,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;amba_pv_to_ft_bridge,./simulation/FastBuild/AMBA_TLM2_BL/gcc-5.2.0-64,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/IP_common/AMBA_TLM2_BL/lib/linux/gcc-5.2.0-64;ftbus,./simulation/FastBuild/SBLTLM2FT_BL,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/SBLTLM2FT_BL/SystemC/lib/linux.gcc-5.2.0-64;rst,./simulation/FastBuild/GenericIPlib,/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64;" visibility="ADVANCED" xsi:type="parameters:Parameter"/>
+            </ParameterElements>
+         </ParameterElements>
+      </sets>
+   </instances>
+</parameters:ParametersRoot>

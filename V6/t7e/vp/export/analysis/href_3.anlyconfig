@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.synopsys.vp.base:NodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg" name="ARM" kind="CORE">
+<children href="./href_4.anlyconfig#/" name="ARM_ipt" kind="MODULE"/>
+<children name="@ARM itself" kind="GENERATEDOBJ">
+<children name="liberty_run" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="p_CLK" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+</children>
+<children name="p_DRSIZE" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+</children>
+<children name="p_IRSIZE" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+</children>
+<children href="./href_5.anlyconfig#/" name="p_dAHB" kind="PORT"/>
+<children href="./href_6.anlyconfig#/" name="p_dTCM" kind="PORT"/>
+<children href="./href_5.anlyconfig#/" name="p_iAHB" kind="PORT"/>
+<children href="./href_6.anlyconfig#/" name="p_iTCM" kind="PORT"/>
+<children name="p_nRESET" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+</children>
+<children name="push_BIGENDINIT" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_DRSIZE" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_INITRAM" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_IRSIZE" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_VINITHI" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_nFIQ" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_nIRQ" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<children name="push_nRESET" kind="PROCESS">
+<configInfo kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+</children>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+</children>
+<configInfo kind="SWAnalysis" factoryName="Code And Branch Coverage" category="Software Analysis" argUnavailableMsg="The following instrumentation points are mandatory for this analysis but
+are not available in the design: FastCodeCoverage"/>
+<configInfo kind="SWAnalysis" factoryName="Code Coverage" category="Software Analysis"/>
+<configInfo kind="OS Kit" factoryName="Linux 2.6.x" category="Software Analysis"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="SWAnalysis" factoryName="Variable Trace" category="Software Analysis"  configurable="true"/>
+<configInfo kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argName="Cache Events" argValue="Instruction Cache"  configurable="true">
+<attrInfo name="Cache Events" kind="8" type="STRING" value="Instruction Cache" description="">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Instruction Cache"/>
+<choices>Instruction Cache</choices>
+<choices>Data Cache</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argName="Cache Events" argValue="Data Cache"  configurable="true">
+<attrInfo name="Cache Events" kind="8" type="STRING" value="Data Cache" description="">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data Cache"/>
+<choices>Instruction Cache</choices>
+<choices>Data Cache</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Terminal Trace" category="Software Analysis" argUnavailableMsg="The following instrumentation points are mandatory for this analysis but
+are not available in the design: Character stream"/>
+<configInfo kind="SWAnalysis" factoryName="Instruction Trace" category="Software Analysis"  configurable="true"/>
+<configInfo kind="SWAnalysis" factoryName="Context Trace" category="Software Analysis"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="SWAnalysis" factoryName="Function Trace" category="Software Analysis"  configurable="true"/>
+<configInfo kind="SWAnalysis" factoryName="Counter profiling" category="Software Analysis"  configurable="true" argUnavailableMsg="The following instrumentation points are mandatory for this analysis but
+are not available in the design: Counters (Use 'cache enable' to enable the cache counters IPT)">
+<attrInfo name="Enabled Counters" kind="2" type="LIST" value="" description="Choose the counters you want to profile">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantListType" type="LIST">
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Instruction cache misses"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Instruction cache hits"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Instruction cache line loads"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache read misses"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache read hits"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache write misses"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache write hits"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache line loads"/>
+<listItem xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="Data cache line evictions"/>
+</defaultValue>
+<choices>Instruction cache misses</choices>
+<choices>Instruction cache hits</choices>
+<choices>Instruction cache line loads</choices>
+<choices>Data cache read misses</choices>
+<choices>Data cache read hits</choices>
+<choices>Data cache write misses</choices>
+<choices>Data cache write hits</choices>
+<choices>Data cache line loads</choices>
+<choices>Data cache line evictions</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argName="Memory space" argValue="DAHB"  configurable="true">
+<attrInfo name="Memory space" kind="2" type="STRING" value="DAHB" description="Selects a memory space to attach the monitor on.">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="DAHB"/>
+<choices>DAHB</choices>
+<choices>DTCM_DATA</choices>
+<choices>IAHB</choices>
+<choices>ITCM_DATA</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argName="Memory space" argValue="DTCM_DATA"  configurable="true">
+<attrInfo name="Memory space" kind="2" type="STRING" value="DTCM_DATA" description="Selects a memory space to attach the monitor on.">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="DTCM_DATA"/>
+<choices>DAHB</choices>
+<choices>DTCM_DATA</choices>
+<choices>IAHB</choices>
+<choices>ITCM_DATA</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argName="Memory space" argValue="IAHB"  configurable="true">
+<attrInfo name="Memory space" kind="2" type="STRING" value="IAHB" description="Selects a memory space to attach the monitor on.">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="IAHB"/>
+<choices>DAHB</choices>
+<choices>DTCM_DATA</choices>
+<choices>IAHB</choices>
+<choices>ITCM_DATA</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argName="Memory space" argValue="ITCM_DATA"  configurable="true">
+<attrInfo name="Memory space" kind="2" type="STRING" value="ITCM_DATA" description="Selects a memory space to attach the monitor on.">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value="ITCM_DATA"/>
+<choices>DAHB</choices>
+<choices>DTCM_DATA</choices>
+<choices>IAHB</choices>
+<choices>ITCM_DATA</choices>
+</attrInfo>
+</configInfo>
+<configInfo kind="OS Kit" factoryName="No OS" category="Software Analysis"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Code And Branch Coverage" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Code Coverage" category="Software Analysis"/>
+<configSummary kind="OS Kit" factoryName="Linux 2.6.x" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Variable Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argValue="Instruction Cache"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argValue="Data Cache"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Terminal Trace" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Instruction Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Context Trace" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Function Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Counter profiling" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="DAHB"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="DTCM_DATA"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="IAHB"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="ITCM_DATA"  configurable="true"/>
+<configSummary kind="OS Kit" factoryName="No OS" category="Software Analysis"/>
+</com.synopsys.vp.base:NodeInfo>

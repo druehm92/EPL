@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.synopsys.vp.base:ConfigModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg">
+<designRoot name="Design Hierarchy" kind="MODULE">
+<children href="./href_0.anlyconfig#/" name="SCProfiler" kind="MODULE"/>
+<children href="./href_1.anlyconfig#/" name="SNPS_PAM" kind="MODULE"/>
+<children href="./href_2.anlyconfig#/" name="HARDWARE" kind="MODULE"/>
+<configSummary kind="MiscTrace" factoryName="Simulation Hotspots" category="Simulation Profiling"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Profiling Events" category="Simulation Profiling"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Processor Model Event" category="Simulation Profiling"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Memory Consumption" category="Simulation Profiling"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Power Analysis" category="Power Analysis"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Code And Branch Coverage" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Code Coverage" category="Software Analysis"/>
+<configSummary kind="OS Kit" factoryName="Linux 2.6.x" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Variable Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argValue="Instruction Cache"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Cache Trace" category="Software Analysis" argValue="Data Cache"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Terminal Trace" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Instruction Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Context Trace" category="Software Analysis"/>
+<configSummary kind="SWAnalysis" factoryName="Function Trace" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Counter profiling" category="Software Analysis"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="DAHB"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="DTCM_DATA"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="IAHB"  configurable="true"/>
+<configSummary kind="SWAnalysis" factoryName="Memory Access" category="Software Analysis" argValue="ITCM_DATA"  configurable="true"/>
+<configSummary kind="OS Kit" factoryName="No OS" category="Software Analysis"/>
+<configSummary kind="MiscTrace" factoryName="Protocol Checker" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Activity" category="Activity Analysis"  configurable="true"/>
+<configSummary kind="BusAnalysis" factoryName="BusDebug" category="Bus Analysis"/>
+<configSummary kind="BusAnalysis" factoryName="BusAnalysis" category="Bus Analysis"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="ClockParameter" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Register Trace" category="General"  configurable="true"/>
+</designRoot>
+</com.synopsys.vp.base:ConfigModel>

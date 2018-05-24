@@ -1,0 +1,26 @@
+device HARDWARE.DTCM.DATA ram rw 0x100000 undefend 32;
+device HARDWARE.ITCM.DATA ram rw 0x100000 undefend 32;
+device HARDWARE.RAM.m_memory ram rw 0x10000 undefend 32;
+device HARDWARE.ROM.m_memory ram rw 0x10000 undefend 32;
+device HARDWARE.TERMINAL.m_regs ram rw 0xc undefend 32;
+device HARDWARE.i_counter.targetSocket ram rw 0x400 undefend 32;
+device HARDWARE.i_display.targetSocket ram rw 0x100000 undefend 32;
+core HARDWARE.ARM
+IAHB
+    HARDWARE.ROM.m_memory 0x0
+,
+DAHB
+    HARDWARE.ROM.m_memory 0x0
+    HARDWARE.RAM.m_memory 0x4000000
+    HARDWARE.TERMINAL.m_regs 0x8000000
+    HARDWARE.i_counter.targetSocket 0x9000000
+    HARDWARE.i_display.targetSocket 0xa000000
+,
+ITCM_DATA
+    HARDWARE.ITCM.DATA 0x0
+,
+DTCM_DATA
+    HARDWARE.DTCM.DATA 0x0
+;
+
+

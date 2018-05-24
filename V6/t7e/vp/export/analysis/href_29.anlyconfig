@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.synopsys.vp.base:NodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg" name="RAM" kind="MODULE">
+<children name="@RAM itself" kind="GENERATEDOBJ">
+<children href="./href_9.anlyconfig#/" name="MEM" kind="EXPORT"/>
+<children name="m_memory" kind="MEMORY">
+<configInfo kind="MiscTrace" factoryName="Register Trace" category="General"  configurable="true">
+<attrInfo name="Specify ranges" kind="0" type="LIST" value="" description="Specify the begin and end offsets of a list of ranges of the memory to be traced.&#xA;These values are offsets, not addresses, so for example, an offset of 1024 means address 4096 when the memory width is 4.">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantListType" type="LIST">
+<listItem xsi:type="com.synopsys.vp.base:VariantPairType" type="PAIR">
+<first xsi:type="com.synopsys.vp.base:VariantValueType" type="UINT64" value="0"/>
+<second xsi:type="com.synopsys.vp.base:VariantValueType" type="UINT64" value="1023"/>
+</listItem>
+</defaultValue>
+</attrInfo>
+</configInfo>
+<configSummary kind="MiscTrace" factoryName="Register Trace" category="General"  configurable="true"/>
+</children>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Register Trace" category="General"  configurable="true"/>
+</children>
+<configInfo kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Register Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+</com.synopsys.vp.base:NodeInfo>

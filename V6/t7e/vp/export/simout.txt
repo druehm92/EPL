@@ -1,0 +1,39 @@
+(15:12:49) Starting simulation: 
+/bin/bash -c exec "/net/user/r1/unix/mep_04/tasks/t7e/vp/export/Debug/sim"  --cwr_properties_xml "/net/user/r1/unix/mep_04/tasks/t7e/vp/export/generated/Default/Properties.xml"
+
+                    Copyright 1996-2017 Synopsys, Inc.
+         This Synopsys product and all associated documentation are
+  proprietary to Synopsys, Inc. and may only be used pursuant to the terms
+     and conditions of a written license agreement with Synopsys, Inc.
+     All other use, reproduction, modification, or distribution of the
+  Synopsys product or the associated documentation is strictly prohibited.
+  
+  SystemC 2.3.1 --- Nov 15 2017 21:40:58
+  Copyright 1996-2017 by all Contributors,
+  ALL RIGHTS RESERVED
+
+INFO :Little endian mode detected from loaded image
+INFO[HARDWARE.ARM]: Configuring ARM926EJ-S cache simulation : Clearing and disabling data cache simulation model.
+
+###########################################################################
+GDB stubs allow attaching a GDB to a core.
+Take care of using a GDB that was configured for the appropriate target
+architecture.
+
+Use this command to attach to a core:
+(gdb) target remote koa.zmk.uni-kl.de:PORT-ID
+
+The following cores are waiting for GDB to attach:
+PORT-ID	CPU-ARCH	INSTANCE_NAME
+12346	ARM	HARDWARE.ARM
+###########################################################################
+
+
+COUNTER RESTART 
+
+COUNTER RESTART 
+SystemC: simulation stopped by user.
+GDB stub port 12346 closed.
+Warning: some scml2 stream(s) not destroyed before infrastructure shutdown. Set environment variable SNPS_SLS_VP_SCML2_LOGGING_VERBOSE_WARNINGS for more details.
+(15:15:35) Simulation terminated with exit code 0
+--------------------------------------------------------------------

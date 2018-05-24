@@ -1,0 +1,5 @@
+2D Median Filter 3x3
+    Runtime (Profiler) without optimization :
+    Main took 12782730 cycles (~ 127827 usec)
+    
+    Runtime (Profiler) with optimization :   

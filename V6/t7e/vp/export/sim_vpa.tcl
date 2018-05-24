@@ -1,0 +1,1 @@
+vpa::start_simulation Debug/sim {/net/user/r1/unix/mep_04/tasks/t7e/vp/export} {--cwr_wait --cwr_properties_xml Properties.xml} 120

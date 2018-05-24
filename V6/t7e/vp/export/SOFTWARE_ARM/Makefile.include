@@ -1,0 +1,9 @@
+-include logicalnames.inc
+
+CPPFILES = SOFTWARE_ARM.cpp 
+
+INCLUDEPATHS = 
+
+LIBRARIES = 
+
+DEFINES = 

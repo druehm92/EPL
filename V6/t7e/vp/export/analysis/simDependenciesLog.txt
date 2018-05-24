@@ -1,0 +1,2 @@
+2018-05-22 15:12:56 Analysis cache successfully written. simDependencies updated
+2018-05-22 15:12:56 Monitor factory information successfully written

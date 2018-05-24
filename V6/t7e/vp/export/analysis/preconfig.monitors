@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Monitors>
+  <Monitor>
+    <MonitorName>No OS</MonitorName>
+    <MonitorDescription>No OS</MonitorDescription>
+    <MonitorKind>No OS</MonitorKind>
+    <DesignObjName>HARDWARE.ARM</DesignObjName>
+    <Enabled>true</Enabled>
+  </Monitor>
+</Monitors>

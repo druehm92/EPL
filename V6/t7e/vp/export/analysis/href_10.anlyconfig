@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.synopsys.vp.base:NodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg" name="tlm2ftbus_genMS" kind="MODULE">
+<children name="@tlm2ftbus_genMS itself" kind="GENERATEDOBJ">
+<children href="./href_11.anlyconfig#/" name="Bus_IPStage_BB_C_11_s_C_BB_C_11_s_s" kind="EXPORT"/>
+<children name="Bus_IPStage_BB_C_11_s_clk_pin" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+</children>
+<children name="Bus_IPStage_BB_C_11_s_reset_pin" kind="PORT_IN">
+<configInfo kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+</children>
+<children href="./href_11.anlyconfig#/" name="Bus_IPStage_BB_C_12_s_C_BB_C_12_s_s" kind="EXPORT"/>
+<children href="./href_12.anlyconfig#/" name="Bus_OPStage_BB_C_13_m_C_BB_C_13_m_m" kind="PORT"/>
+<children href="./href_12.anlyconfig#/" name="Bus_OPStage_BB_C_14_m_C_BB_C_14_m_m" kind="PORT"/>
+<children href="./href_12.anlyconfig#/" name="Bus_OPStage_BB_C_15_m_C_BB_C_15_m_m" kind="PORT"/>
+<children href="./href_12.anlyconfig#/" name="Bus_OPStage_BB_i_counter_targetSocket_C_BB_i_counter_targetSocket_m" kind="PORT"/>
+<children href="./href_12.anlyconfig#/" name="Bus_OPStage_BB_i_display_targetSocket_C_BB_i_display_targetSocket_m" kind="PORT"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Protocol Checker" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+</children>
+<children href="./href_13.anlyconfig#/" name="Bus_IPStage_BB_C_11_s_C_BB_C_11_s_s_bus_init_socket" kind="MODULE"/>
+<children href="./href_14.anlyconfig#/" name="Bus_IPStage_BB_C_11_s_C_BB_C_11_s_s_target_forwarder" kind="MODULE"/>
+<children href="./href_13.anlyconfig#/" name="Bus_IPStage_BB_C_12_s_C_BB_C_12_s_s_bus_init_socket" kind="MODULE"/>
+<children href="./href_14.anlyconfig#/" name="Bus_IPStage_BB_C_12_s_C_BB_C_12_s_s_target_forwarder" kind="MODULE"/>
+<children href="./href_15.anlyconfig#/" name="Bus_OPStage_BB_C_13_m_C_BB_C_13_m_m_bus_targetSocket" kind="MODULE"/>
+<children href="./href_16.anlyconfig#/" name="Bus_OPStage_BB_C_13_m_C_BB_C_13_m_m_forwarder" kind="MODULE"/>
+<children href="./href_15.anlyconfig#/" name="Bus_OPStage_BB_C_14_m_C_BB_C_14_m_m_bus_targetSocket" kind="MODULE"/>
+<children href="./href_16.anlyconfig#/" name="Bus_OPStage_BB_C_14_m_C_BB_C_14_m_m_forwarder" kind="MODULE"/>
+<children href="./href_15.anlyconfig#/" name="Bus_OPStage_BB_C_15_m_C_BB_C_15_m_m_bus_targetSocket" kind="MODULE"/>
+<children href="./href_16.anlyconfig#/" name="Bus_OPStage_BB_C_15_m_C_BB_C_15_m_m_forwarder" kind="MODULE"/>
+<children href="./href_15.anlyconfig#/" name="Bus_OPStage_BB_i_counter_targetSocket_C_BB_i_counter_targetSocket_m_bus_targetSocket" kind="MODULE"/>
+<children href="./href_16.anlyconfig#/" name="Bus_OPStage_BB_i_counter_targetSocket_C_BB_i_counter_targetSocket_m_forwarder" kind="MODULE"/>
+<children href="./href_15.anlyconfig#/" name="Bus_OPStage_BB_i_display_targetSocket_C_BB_i_display_targetSocket_m_bus_targetSocket" kind="MODULE"/>
+<children href="./href_16.anlyconfig#/" name="Bus_OPStage_BB_i_display_targetSocket_C_BB_i_display_targetSocket_m_forwarder" kind="MODULE"/>
+<children href="./href_17.anlyconfig#/" name="arbiter" kind="MODULE"/>
+<children href="./href_18.anlyconfig#/" name="bus" kind="MODULE"/>
+<children href="./href_19.anlyconfig#/" name="decoder" kind="MODULE"/>
+<children href="./href_20.anlyconfig#/" name="foo" kind="MODULE"/>
+<children href="./href_22.anlyconfig#/" name="rev_arbiter_rev_channel_arbiter_0" kind="MODULE"/>
+<children href="./href_22.anlyconfig#/" name="rev_arbiter_rev_channel_arbiter_1" kind="MODULE"/>
+<children href="./href_22.anlyconfig#/" name="rev_arbiter_rev_channel_arbiter_2" kind="MODULE"/>
+<children href="./href_22.anlyconfig#/" name="rev_arbiter_rev_channel_arbiter_3" kind="MODULE"/>
+<children href="./href_23.anlyconfig#/" name="tlm2FTBusDefaultTarget" kind="MODULE"/>
+<children href="./href_24.anlyconfig#/" name="tlm2FTBusPE" kind="MODULE"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configInfo kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Protocol Checker" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace (Clock)" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Value Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Process Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Model Internal" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Errors" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Info" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="FastTrack Warnings" category="FastTrack Logging"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Activity" category="Activity Analysis"  configurable="true"/>
+</com.synopsys.vp.base:NodeInfo>

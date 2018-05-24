@@ -1,0 +1,6 @@
+COWAREHOME=/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux
+ARFLAGS = 
+CXX=gcc-5.2.0-64
+
+
+

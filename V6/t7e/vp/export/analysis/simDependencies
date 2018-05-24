@@ -1,0 +1,45 @@
+[2017-05-26 19:04:53]/lib64/ld-linux-x86-64.so.2
+[2017-05-26 19:04:54]/lib64/libc.so.6
+[2015-04-20 12:50:02]/lib64/libdbus-1.so.3
+[2017-05-26 19:04:53]/lib64/libdl.so.2
+[2017-01-24 18:40:12]/lib64/libglib-2.0.so.0
+[2017-01-24 18:40:12]/lib64/libgobject-2.0.so.0
+[2017-01-24 18:40:12]/lib64/libgthread-2.0.so.0
+[2017-05-26 19:04:54]/lib64/libm.so.6
+[2017-05-26 19:04:53]/lib64/libnsl.so.1
+[2017-05-26 19:04:53]/lib64/libnss_dns.so.2
+[2017-05-26 19:04:53]/lib64/libnss_files.so.2
+[2017-05-26 19:04:54]/lib64/libnss_nis.so.2
+[2017-05-26 19:04:54]/lib64/libpthread.so.0
+[2017-05-26 19:04:54]/lib64/libresolv.so.2
+[2017-05-26 19:04:54]/lib64/librt.so.1
+[2016-08-30 15:17:18]/lib64/libudev.so.0
+[2017-11-15 22:31:13]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/SystemC/IA_CoWare/lib/linux/libARM926EJS_TLM2_PSP.gcc-5.2.0-64.so
+[2017-11-15 22:08:36]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/libClockGenerator.so
+[2017-11-15 22:11:35]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/libMemory_tlm2.so
+[2017-11-15 22:10:02]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/libOutputDevice_tlm2.so
+[2017-11-15 22:08:32]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/libPin_drive.so
+[2017-11-15 22:08:30]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/libPin_stub.so
+[2017-11-15 22:09:19]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/GenericIPlib/SystemC/lib/linux.gcc-5.2.0-64/librst.so
+[2017-11-15 21:59:46]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/SBLTLM2FT_BL/SystemC/lib/linux.gcc-5.2.0-64/libftbus.so
+[2017-11-15 22:12:01]/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/IP_common/AMBA_TLM2_BL/lib/linux/gcc-5.2.0-64/libamba_pv_to_ft_bridge.so
+[2018-05-22 15:06:47]/net/user/r1/unix/mep_04/tasks/t7e/vp/export/Debug/sim
+[2017-11-15 21:52:49]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libARM_LT_Utils.so
+[2017-11-15 21:52:11]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libSnpsVP.so
+[2017-11-15 21:53:57]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libSnpsVPExt.so
+[2016-03-08 14:33:20]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libdwarf.so
+[2016-03-08 15:07:37]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libelf.so.0
+[2016-03-04 14:53:05]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libomniDynamic4.so.1
+[2016-03-04 14:53:05]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libomniORB4.so.1
+[2016-03-04 14:53:04]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libomnithread.so.3
+[2017-02-13 16:59:36]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libtbb.so.2
+[2017-02-13 16:59:44]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/common/libso-gcc-5.2.0-64/libtbbmalloc.so.2
+[2017-11-15 21:37:27]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/gnu/gcc-5.2.0-64/lib64/libgcc_s.so.1
+[2017-11-15 21:37:28]/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux/gnu/gcc-5.2.0-64/lib64/libstdc++.so.6
+[2013-02-20 13:23:59]/usr/lib64/libdbus-glib-1.so.2
+[2014-06-19 15:02:21]/usr/lib64/libhal.so.1
+[filter_tool_generated,.*artifact.*,.*snps_stub.*,.*InnoRuntime.*]__filter
+[70]__num_IPTs
+[266]__num_objects_added
+[1]__num_objects_removed
+[104]__num_register_entries

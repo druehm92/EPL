@@ -1,0 +1,7 @@
+COWAREHOME=/software/Synopsys_CoWare/N-2017.12/VPProducts/SLS/linux
+LDFLAGS = -lARM_LT_Utils -L"/net/software/r1/Linux/software/Synopsys_CoWare/N-2017.12/VPProducts/IP/ARM926EJS_TLM2_PSP/SystemC/IA_CoWare/lib/linux/" -lARM926EJS_TLM2_PSP.gcc-5.2.0-64 -lpthread -ldl
+PUREFLAGS = 
+CXX=gcc-5.2.0-64
+
+
+

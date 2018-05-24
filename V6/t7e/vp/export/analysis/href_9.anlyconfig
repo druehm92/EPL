@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.synopsys.vp.base:NodeInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.synopsys.vp.base="com.synopsys.vp.base.anlycfg" name="BB_C_11_s" kind="EXPORT">
+<configInfo kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configInfo kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configInfo kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true">
+<attrInfo name="Analyzed Field" kind="2" type="STRING" value="" description="Select the field for processing">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Tlm2RdTrans.begin.m_command</choices>
+<choices>Tlm2RdTrans.begin.m_address</choices>
+<choices>Tlm2RdTrans.begin.m_length</choices>
+<choices>Tlm2RdTrans.begin.m_response_status</choices>
+<choices>Tlm2RdTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.begin.m_streaming_width</choices>
+<choices>Tlm2RdTrans.end.m_command</choices>
+<choices>Tlm2RdTrans.end.m_address</choices>
+<choices>Tlm2RdTrans.end.m_length</choices>
+<choices>Tlm2RdTrans.end.m_response_status</choices>
+<choices>Tlm2RdTrans.end.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.end.m_streaming_width</choices>
+<choices>Tlm2WrTrans.begin.m_command</choices>
+<choices>Tlm2WrTrans.begin.m_address</choices>
+<choices>Tlm2WrTrans.begin.m_length</choices>
+<choices>Tlm2WrTrans.begin.m_response_status</choices>
+<choices>Tlm2WrTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.begin.m_streaming_width</choices>
+<choices>Tlm2WrTrans.end.m_command</choices>
+<choices>Tlm2WrTrans.end.m_address</choices>
+<choices>Tlm2WrTrans.end.m_length</choices>
+<choices>Tlm2WrTrans.end.m_response_status</choices>
+<choices>Tlm2WrTrans.end.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.end.m_streaming_width</choices>
+<choices>DMI Read Access Request.begin.m_command</choices>
+<choices>DMI Read Access Request.begin.m_address</choices>
+<choices>DMI Read Access Request.begin.m_length</choices>
+<choices>DMI Read Access Request.begin.m_response_status</choices>
+<choices>DMI Read Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Read Access Request.begin.m_streaming_width</choices>
+<choices>DMI Read Access Request.end.m_dmi_start_address</choices>
+<choices>DMI Read Access Request.end.m_dmi_end_address</choices>
+<choices>DMI Read Access Request.end.m_dmi_access</choices>
+<choices>DMI Write Access Request.begin.m_command</choices>
+<choices>DMI Write Access Request.begin.m_address</choices>
+<choices>DMI Write Access Request.begin.m_length</choices>
+<choices>DMI Write Access Request.begin.m_response_status</choices>
+<choices>DMI Write Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Write Access Request.begin.m_streaming_width</choices>
+<choices>DMI Write Access Request.end.m_dmi_start_address</choices>
+<choices>DMI Write Access Request.end.m_dmi_end_address</choices>
+<choices>DMI Write Access Request.end.m_dmi_access</choices>
+<choices>DMI Invalidation.begin</choices>
+<choices>DMI Invalidation.end</choices>
+<choices>Request phase.begin.m_command</choices>
+<choices>Request phase.begin.m_address</choices>
+<choices>Request phase.begin.m_length</choices>
+<choices>Request phase.begin.m_response_status</choices>
+<choices>Request phase.begin.m_byte_enable_length</choices>
+<choices>Request phase.begin.m_streaming_width</choices>
+<choices>Request phase.end._default_field_</choices>
+<choices>Response phase.begin._default_field_</choices>
+<choices>Response phase.end.m_command</choices>
+<choices>Response phase.end.m_address</choices>
+<choices>Response phase.end.m_length</choices>
+<choices>Response phase.end.m_response_status</choices>
+<choices>Response phase.end.m_byte_enable_length</choices>
+<choices>Response phase.end.m_streaming_width</choices>
+</attrInfo>
+<attrInfo name="Condition Field" kind="2" type="STRING" value="" description="Select the field to be used as ID">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices></choices>
+<choices>Tlm2RdTrans.begin.m_command</choices>
+<choices>Tlm2RdTrans.begin.m_address</choices>
+<choices>Tlm2RdTrans.begin.m_length</choices>
+<choices>Tlm2RdTrans.begin.m_response_status</choices>
+<choices>Tlm2RdTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.begin.m_streaming_width</choices>
+<choices>Tlm2RdTrans.end.m_command</choices>
+<choices>Tlm2RdTrans.end.m_address</choices>
+<choices>Tlm2RdTrans.end.m_length</choices>
+<choices>Tlm2RdTrans.end.m_response_status</choices>
+<choices>Tlm2RdTrans.end.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.end.m_streaming_width</choices>
+<choices>Tlm2WrTrans.begin.m_command</choices>
+<choices>Tlm2WrTrans.begin.m_address</choices>
+<choices>Tlm2WrTrans.begin.m_length</choices>
+<choices>Tlm2WrTrans.begin.m_response_status</choices>
+<choices>Tlm2WrTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.begin.m_streaming_width</choices>
+<choices>Tlm2WrTrans.end.m_command</choices>
+<choices>Tlm2WrTrans.end.m_address</choices>
+<choices>Tlm2WrTrans.end.m_length</choices>
+<choices>Tlm2WrTrans.end.m_response_status</choices>
+<choices>Tlm2WrTrans.end.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.end.m_streaming_width</choices>
+<choices>DMI Read Access Request.begin.m_command</choices>
+<choices>DMI Read Access Request.begin.m_address</choices>
+<choices>DMI Read Access Request.begin.m_length</choices>
+<choices>DMI Read Access Request.begin.m_response_status</choices>
+<choices>DMI Read Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Read Access Request.begin.m_streaming_width</choices>
+<choices>DMI Read Access Request.end.m_dmi_start_address</choices>
+<choices>DMI Read Access Request.end.m_dmi_end_address</choices>
+<choices>DMI Read Access Request.end.m_dmi_access</choices>
+<choices>DMI Write Access Request.begin.m_command</choices>
+<choices>DMI Write Access Request.begin.m_address</choices>
+<choices>DMI Write Access Request.begin.m_length</choices>
+<choices>DMI Write Access Request.begin.m_response_status</choices>
+<choices>DMI Write Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Write Access Request.begin.m_streaming_width</choices>
+<choices>DMI Write Access Request.end.m_dmi_start_address</choices>
+<choices>DMI Write Access Request.end.m_dmi_end_address</choices>
+<choices>DMI Write Access Request.end.m_dmi_access</choices>
+<choices>DMI Invalidation.begin</choices>
+<choices>DMI Invalidation.end</choices>
+<choices>Request phase.begin.m_command</choices>
+<choices>Request phase.begin.m_address</choices>
+<choices>Request phase.begin.m_length</choices>
+<choices>Request phase.begin.m_response_status</choices>
+<choices>Request phase.begin.m_byte_enable_length</choices>
+<choices>Request phase.begin.m_streaming_width</choices>
+<choices>Request phase.end._default_field_</choices>
+<choices>Response phase.begin._default_field_</choices>
+<choices>Response phase.end.m_command</choices>
+<choices>Response phase.end.m_address</choices>
+<choices>Response phase.end.m_length</choices>
+<choices>Response phase.end.m_response_status</choices>
+<choices>Response phase.end.m_byte_enable_length</choices>
+<choices>Response phase.end.m_streaming_width</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Tlm2RdTrans</choices>
+<choices>Tlm2WrTrans</choices>
+<choices>DMI Read Access Request</choices>
+<choices>DMI Write Access Request</choices>
+<choices>DMI Invalidation</choices>
+<choices>Request phase</choices>
+<choices>Response phase</choices>
+<choices>Tlm2RdTrans.begin.m_command</choices>
+<choices>Tlm2RdTrans.begin.m_address</choices>
+<choices>Tlm2RdTrans.begin.m_length</choices>
+<choices>Tlm2RdTrans.begin.m_response_status</choices>
+<choices>Tlm2RdTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.begin.m_streaming_width</choices>
+<choices>Tlm2WrTrans.begin.m_command</choices>
+<choices>Tlm2WrTrans.begin.m_address</choices>
+<choices>Tlm2WrTrans.begin.m_length</choices>
+<choices>Tlm2WrTrans.begin.m_response_status</choices>
+<choices>Tlm2WrTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.begin.m_streaming_width</choices>
+<choices>DMI Read Access Request.begin.m_command</choices>
+<choices>DMI Read Access Request.begin.m_address</choices>
+<choices>DMI Read Access Request.begin.m_length</choices>
+<choices>DMI Read Access Request.begin.m_response_status</choices>
+<choices>DMI Read Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Read Access Request.begin.m_streaming_width</choices>
+<choices>DMI Write Access Request.begin.m_command</choices>
+<choices>DMI Write Access Request.begin.m_address</choices>
+<choices>DMI Write Access Request.begin.m_length</choices>
+<choices>DMI Write Access Request.begin.m_response_status</choices>
+<choices>DMI Write Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Write Access Request.begin.m_streaming_width</choices>
+<choices>DMI Invalidation.begin</choices>
+<choices>Request phase.begin.m_command</choices>
+<choices>Request phase.begin.m_address</choices>
+<choices>Request phase.begin.m_length</choices>
+<choices>Request phase.begin.m_response_status</choices>
+<choices>Request phase.begin.m_byte_enable_length</choices>
+<choices>Request phase.begin.m_streaming_width</choices>
+<choices>Response phase.begin._default_field_</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Tlm2RdTrans</choices>
+<choices>Tlm2WrTrans</choices>
+<choices>DMI Read Access Request</choices>
+<choices>DMI Write Access Request</choices>
+<choices>DMI Invalidation</choices>
+<choices>Request phase</choices>
+<choices>Response phase</choices>
+<choices>Tlm2RdTrans.begin.m_command</choices>
+<choices>Tlm2RdTrans.begin.m_address</choices>
+<choices>Tlm2RdTrans.begin.m_length</choices>
+<choices>Tlm2RdTrans.begin.m_response_status</choices>
+<choices>Tlm2RdTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.begin.m_streaming_width</choices>
+<choices>Tlm2WrTrans.begin.m_command</choices>
+<choices>Tlm2WrTrans.begin.m_address</choices>
+<choices>Tlm2WrTrans.begin.m_length</choices>
+<choices>Tlm2WrTrans.begin.m_response_status</choices>
+<choices>Tlm2WrTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.begin.m_streaming_width</choices>
+<choices>DMI Read Access Request.begin.m_command</choices>
+<choices>DMI Read Access Request.begin.m_address</choices>
+<choices>DMI Read Access Request.begin.m_length</choices>
+<choices>DMI Read Access Request.begin.m_response_status</choices>
+<choices>DMI Read Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Read Access Request.begin.m_streaming_width</choices>
+<choices>DMI Write Access Request.begin.m_command</choices>
+<choices>DMI Write Access Request.begin.m_address</choices>
+<choices>DMI Write Access Request.begin.m_length</choices>
+<choices>DMI Write Access Request.begin.m_response_status</choices>
+<choices>DMI Write Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Write Access Request.begin.m_streaming_width</choices>
+<choices>DMI Invalidation.begin</choices>
+<choices>Request phase.begin.m_command</choices>
+<choices>Request phase.begin.m_address</choices>
+<choices>Request phase.begin.m_length</choices>
+<choices>Request phase.begin.m_response_status</choices>
+<choices>Request phase.begin.m_byte_enable_length</choices>
+<choices>Request phase.begin.m_streaming_width</choices>
+<choices>Response phase.begin._default_field_</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configInfo kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true">
+<attrInfo name="Generator" kind="0" type="STRING" value="" description="Specify the field to use as id">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="STRING" value=""/>
+<choices>Tlm2RdTrans</choices>
+<choices>Tlm2WrTrans</choices>
+<choices>DMI Read Access Request</choices>
+<choices>DMI Write Access Request</choices>
+<choices>DMI Invalidation</choices>
+<choices>Request phase</choices>
+<choices>Response phase</choices>
+<choices>Tlm2RdTrans.begin.m_command</choices>
+<choices>Tlm2RdTrans.begin.m_address</choices>
+<choices>Tlm2RdTrans.begin.m_length</choices>
+<choices>Tlm2RdTrans.begin.m_response_status</choices>
+<choices>Tlm2RdTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2RdTrans.begin.m_streaming_width</choices>
+<choices>Tlm2WrTrans.begin.m_command</choices>
+<choices>Tlm2WrTrans.begin.m_address</choices>
+<choices>Tlm2WrTrans.begin.m_length</choices>
+<choices>Tlm2WrTrans.begin.m_response_status</choices>
+<choices>Tlm2WrTrans.begin.m_byte_enable_length</choices>
+<choices>Tlm2WrTrans.begin.m_streaming_width</choices>
+<choices>DMI Read Access Request.begin.m_command</choices>
+<choices>DMI Read Access Request.begin.m_address</choices>
+<choices>DMI Read Access Request.begin.m_length</choices>
+<choices>DMI Read Access Request.begin.m_response_status</choices>
+<choices>DMI Read Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Read Access Request.begin.m_streaming_width</choices>
+<choices>DMI Write Access Request.begin.m_command</choices>
+<choices>DMI Write Access Request.begin.m_address</choices>
+<choices>DMI Write Access Request.begin.m_length</choices>
+<choices>DMI Write Access Request.begin.m_response_status</choices>
+<choices>DMI Write Access Request.begin.m_byte_enable_length</choices>
+<choices>DMI Write Access Request.begin.m_streaming_width</choices>
+<choices>DMI Invalidation.begin</choices>
+<choices>Request phase.begin.m_command</choices>
+<choices>Request phase.begin.m_address</choices>
+<choices>Request phase.begin.m_length</choices>
+<choices>Request phase.begin.m_response_status</choices>
+<choices>Request phase.begin.m_byte_enable_length</choices>
+<choices>Request phase.begin.m_streaming_width</choices>
+<choices>Response phase.begin._default_field_</choices>
+</attrInfo>
+<attrInfo name="Interval" kind="0" type="INT32" value="" description="Specify interval for statistics calculation">
+<defaultValue xsi:type="com.synopsys.vp.base:VariantValueType" type="INT32" value="1000"/>
+</attrInfo>
+</configInfo>
+<configSummary kind="MiscTrace" factoryName="Functional Coverage Port Monitor" category="General"/>
+<configSummary kind="MiscTrace" factoryName="TLM Port Trace" category="General"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Field Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Contention Statistics" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Count" category="General"  configurable="true"/>
+<configSummary kind="MiscTrace" factoryName="Transaction Latency Statistics" category="General"  configurable="true"/>
+</com.synopsys.vp.base:NodeInfo>
