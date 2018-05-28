@@ -72,26 +72,21 @@ int main(void)
         //100 x 100 Image and 3x3 window
         unsigned int window[KS*3];
         unsigned char output[WIDTH][HEIGHT];
-        unsigned int origin;
-
+        
         for (unsigned int w=0; w <= WIDTH-1; w++){
             for (unsigned int h=0; h <= HEIGHT-1; h++){
                 if (w > 0 && h > 0 && w < WIDTH-1 && h < HEIGHT-1){                
                     for (int i=0; i <= KS-1;i++){
-                        window[(i+0)+i*(KS-1)]= IMAGE[w-1][h+1+i-2];
-                        window[(i+1)+i*(KS-1)] = IMAGE[w][h+1+i-2];
-                        window[(i+2)+i*(KS-1)] = IMAGE[w+1][h+1+i-2];
-                    }
-                    origin = insertionSort(window);
+                        window[(i+0)+i*(KS-1)]= IMAGE[w-1][h+i-1];
+                        window[(i+1)+i*(KS-1)] = IMAGE[w][h+i-1];
+                        window[(i+2)+i*(KS-1)] = IMAGE[w+1][h+i-1];
+                    }                   
+                    output[w][h] = insertionSort(window);                  
                 }
                 
-                if (h == 0 || w == 0 || w == WIDTH-1 || h == HEIGHT-1){
+                else{ //(h == 0 || w == 0 || w == WIDTH-1 || h == HEIGHT-1)             
                     output[w][h] = 0x00;
-                }
-                else{
-                    output[w][h] = origin;
-                }
-                
+                }                               
                 setPixel(w,h, output[w][h]); 
                 //setPixel(w,h, IMAGE[w][h]); //for receiving input image  
             }
